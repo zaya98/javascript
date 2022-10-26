@@ -1,3 +1,23 @@
 ul li {
     text-decoration: underline;
 }
+
+.navbar {
+    background-image: radial-gradient(yellow, orange );
+}
+
+.epp {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: flex-start;
+ padding: 10px;
+ list-style: none;
+
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 3px;
+}
