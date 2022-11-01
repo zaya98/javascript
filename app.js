@@ -8,25 +8,14 @@ let valorNegativo = false
 if ( edadUsuario >= 18 ) {
 
 alert ("todo lo que buscas esta aca"+ " " + nombreUsuario + " " + apellidoUsuario + "!!!");
+
+console.log ("hola" +" " + nombreUsuario + " " + apellidoUsuario );}
+else {
+    alert ("no puede ingresar a este sitio, intentelo nuevamente!!!");
 }
 
-if (edadUsuario < 18) {
-    
-}
-
-console.log ("hola" +" " + nombreUsuario + " " + apellidoUsuario );
 
 
-
-
-let nombreProducto1 = "arnes con cabo de vida";
-console.log (nombreProducto1);
-
-let nombreProducto2 = "jafas de seguridad";
-console.log (nombreProducto2);
-
-let nombreProducto3 = "mascara de doble filtro";
-console.log (nombreProducto3);
 
 
 
