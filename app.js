@@ -45,7 +45,8 @@ const proteccionRespiratoria = [
     color:"azul",}]
 
 
-console.log (proteccionDeAltura);
+
+console.log (proteccionDeAltura); 
 console.log (proteccionOcular);
 console.log (proteccionRespiratoria);
 
