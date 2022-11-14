@@ -21,27 +21,33 @@ else {
     mostrarMensaje ();
 }
 
-let productoUno = {
-    producto:"arnes de seguridad",
+const proteccionDeAltura = [
+    {
+    producto:"arnes de seguridad",    
     marca: "iram",
     modelo: "anticaida",
     color: "amarillo",
-}
-let productoDos = {
+    }
+]
+
+const proteccionOcular = [
+    {
     producto:"gafas de seguridad",
     marca:"deltaplus",
     modelo:"ecoline" ,
-    color: "transparente",}
-let productotres = {
+    color: "transparente",}]
+
+const proteccionRespiratoria = [
+    {
     producto:"mascara con filtro",
     marca:"stim",
     modelo:"bifiltro",
-    color:"azul",
-}
+    color:"azul",}]
 
-console.log (productoUno);
-console.log (productoDos);
-console.log (productotres);
+
+console.log (proteccionDeAltura);
+console.log (proteccionOcular);
+console.log (proteccionRespiratoria);
 
 
 
