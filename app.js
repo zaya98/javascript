@@ -9,17 +9,17 @@ function mostrarMensaje () {
     alert ("no puede ingresar a este sitio, intentelo nuevamente!!!");
 }
 
-
 if ( edadUsuario >= 18 ) {
 alert ("todo lo que buscas esta aca"+ " " + nombreUsuario + " " + apellidoUsuario + "!!!");
 saludar ()
-for (let i=0; i<1; i++) {
-    saludar ();
-}
+console.log(parseInt);
+
 }
 else {
     mostrarMensaje ();
+    
 }
+
 
 const proteccionDeAltura = [
     {
@@ -43,8 +43,6 @@ const proteccionRespiratoria = [
     marca:"stim",
     modelo:"bifiltro",
     color:"azul",}]
-
-
 
 console.log (proteccionDeAltura); 
 console.log (proteccionOcular);

@@ -1,23 +1,55 @@
-ul li {
-    text-decoration: underline;
-}
-
 .navbar {
     background-image: radial-gradient(yellow, orange );
-}
-
-.epp {
- display: flex;
- flex-direction: column;
- text-align: center;
- align-items: flex-start;
- padding: 10px;
- list-style: none;
+    font-family: 'Chivo', sans-serif;
 
 }
 
-h1 {
-    text-decoration: underline;
+h1{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding-bottom: 3px;
+    margin: 30px 0px;
+    text-decoration: underline;
+    font-family: 'roboto', sans-serif;
 }
+img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: yellow;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: rgb(231, 231, 62);
+}
+.informacion button{
+    background-image: radial-gradient(yellow, orange );
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: rgb(221, 221, 8);
+}
+.info {
+    font-family: 'roboto', sans-serif;
+}
+
