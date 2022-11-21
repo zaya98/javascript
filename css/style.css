@@ -47,9 +47,11 @@ img {
     cursor: pointer;
 }
 .informacion button:hover{
-    background-color: rgb(221, 221, 8);
+    background-color: rgb(156, 156, 6);
 }
 .info {
     font-family: 'roboto', sans-serif;
 }
-
+.scroll h1{
+    color: #141C29;
+}

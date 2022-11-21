@@ -1,6 +1,10 @@
 let nombreUsuario = prompt ("ingrese su nombre");
-let apellidoUsuario = prompt ("ingrese su apellido");
+let apellidoUsuario = prompt ("ingrese su apellido"); 
 let edadUsuario = prompt ("ingrese su edad");
+
+while (edadUsuario == null || /\D/.test(edadUsuario) || edadUsuario == "") {
+    edadUsuario = prompt("ingrese su edad");
+};
 
 function saludar () {
 console.log ("hola" +" " + nombreUsuario + " " + apellidoUsuario );     
@@ -9,15 +13,14 @@ function mostrarMensaje () {
     alert ("no puede ingresar a este sitio, intentelo nuevamente!!!");
 }
 
-if ( edadUsuario >= 18 ) {
+if (edadUsuario >= 18 ) {
 alert ("todo lo que buscas esta aca"+ " " + nombreUsuario + " " + apellidoUsuario + "!!!");
 saludar ()
-console.log(parseInt);
 
 }
 else {
     mostrarMensaje ();
-    
+
 }
 
 
@@ -47,6 +50,8 @@ const proteccionRespiratoria = [
 console.log (proteccionDeAltura); 
 console.log (proteccionOcular);
 console.log (proteccionRespiratoria);
+
+
 
 
 
