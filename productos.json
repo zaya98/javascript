@@ -1,0 +1,27 @@
+[
+    {
+        "producto":"arnes de seguridad",    
+        "marca": "iram",
+        "modelo": "anticaida",
+        "color": "amarillo",
+        "img": "./img/arnes.jpg",
+        "precio": 12000
+        },
+        {
+            "producto":"gafas de seguridad",
+            "marca":"deltaplus",
+            "modelo":"ecoline" ,
+            "color": "transparente",
+            "img": "./img/gafas.jpg",
+            "precio": 3100
+        },
+        {
+            "producto":"mascara con filtro",
+            "marca":"stim",
+            "modelo":"bifiltro",
+            "color":"azul",
+            "img": "./img/mascara.jpg",
+            "precio": 3500
+        }
+      
+]
