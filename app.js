@@ -13,7 +13,6 @@ Swal.fire({
     background: "radial-gradient(yellow, orange )",
     border: "15px",
   }).then((result) => {
-    /* Read more about isConfirmed, isDenied below */
     if (result.isConfirmed) {
         $.getJSON(PRODUCTOS, function (res, req) {
             if (req === "success"){
